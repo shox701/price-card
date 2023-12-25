@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Card</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <form class="product__form">
+        <input type="text" class="image__Input" placeholder="URL Kiriting">
+        <input type="text" class="name__Input" placeholder="Tovar nomini kiriting">
+        <input type="number" class="price__Input" placeholder="Tovar narxini kiriting">
+        <button type="button" class="form__button" onclick="updateCard()">SEND</button>
+    </form>
+
+    <div class="product__card">
+        <img class="product__image" src="" alt="Product Image">
+        <h3 class="product__name"></h3>
+        <p class="product__price"></p>
+    </div>
+</body>
+    <script src="/js/main.js"></script>
+</html>
